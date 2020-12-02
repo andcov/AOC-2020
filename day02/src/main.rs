@@ -1,6 +1,5 @@
 use std::fs;
 use regex::Regex;
-use std::str::FromStr;
 
 fn main() {
     println!("Day 02\nPart 1: {}\nPart 2: {}", solve_part_one().unwrap(), solve_part_two().unwrap());
@@ -13,10 +12,7 @@ fn solve_part_one() -> Option<i32> {
 
     for l in v.lines() {
         let f: Vec<&str> = re.split(l).collect();
-        let r = Regex::from_str(f[2]).unwrap();
-
-        let mut cnt = 0;
-        r.find_iter(f[3]).for_each(|_| cnt += 1);
+        let cnt = f[3].matches(f[2]).count();
 
         if cnt >= f[0].parse().unwrap() && cnt <= f[1].parse().unwrap() {
             valid_pass += 1;
