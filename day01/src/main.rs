@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    println!("Day 1\nPart 1: {}\nPart 2: {}", solve_part_one().unwrap(), solve_part_two().unwrap());
+    println!("Day 01\nPart 1: {}\nPart 2: {}", solve_part_one().unwrap(), solve_part_two().unwrap());
 }
 
 #[allow(dead_code)]
