@@ -6,7 +6,9 @@ fn main() {
 }
 
 fn solve_part_one() -> Option<i32> {
-    let v = fs::read_to_string("input.txt").expect("Something went wrong reading the file");
+    let mut v = String::new();
+    read_input(&mut v);
+
     let re = Regex::new(r"[- :]+").unwrap();
     let mut valid_pass = 0;
 
@@ -23,7 +25,9 @@ fn solve_part_one() -> Option<i32> {
 }
 
 fn solve_part_two() -> Option<i32> {
-    let v = fs::read_to_string("input.txt").expect("Something went wrong reading the file");
+    let mut v = String::new();
+    read_input(&mut v);
+
     let re = Regex::new(r"[- :]+").unwrap();
     let mut valid_pass = 0;
 
@@ -37,4 +41,9 @@ fn solve_part_two() -> Option<i32> {
     }
 
     Some(valid_pass)
+}
+
+fn read_input(v: &mut String) {
+    *v = fs::read_to_string("input.txt")
+        .expect("Something went wrong reading the file");
 }

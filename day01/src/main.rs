@@ -5,12 +5,8 @@ fn main() {
 }
 
 fn solve_part_one() -> Option<i32> {
-    let mut v = fs::read_to_string("input.txt")
-        .expect("Something went wrong reading the file")
-        .split_whitespace().map(|i| i.parse::<i32>().unwrap())
-        .collect::<Vec<i32>>();
-
-    v.sort();
+    let mut v = Vec::new();
+    read_input(&mut v);
 
     for i in &v {
         let aux = 2020 - i;
@@ -27,12 +23,8 @@ fn solve_part_one() -> Option<i32> {
 }
 
 fn solve_part_two() -> Option<i32> {
-    let mut v = fs::read_to_string("input.txt")
-        .expect("Something went wrong reading the file")
-        .split_whitespace().map(|i| i.parse::<i32>().unwrap())
-        .collect::<Vec<i32>>();
-
-    v.sort();
+    let mut v = Vec::new();
+    read_input(&mut v);
 
     for i in &v {
         for o in &v {
@@ -48,4 +40,13 @@ fn solve_part_two() -> Option<i32> {
     }
 
     None
+}
+
+fn read_input(v: &mut Vec<i32>) {
+   *v = fs::read_to_string("input.txt")
+        .expect("Something went wrong reading the file")
+        .split_whitespace().map(|i| i.parse::<i32>().unwrap())
+        .collect::<Vec<i32>>();
+
+    v.sort();
 }
