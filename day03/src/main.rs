@@ -1,25 +1,27 @@
+// https://adventofcode.com/2020/day/3
 use std::fs;
 
 fn main() {
-    println!("Day 03\nPart 1: {}\nPart 2: {}", solve_part_one().unwrap(), solve_part_two().unwrap());
+    println!("Day 03\nPart 1: {}\nPart 2: {}", solve_part_one(), solve_part_two());
 }
 
-fn solve_part_one() -> Option<u64>{
+fn solve_part_one() -> u64{
     let mut v = Vec::new();
     read_input(&mut v);
 
-    Some(trees_encountered(&v, 3, 1))
+    trees_encountered(&v, 3, 1)
 }
 
-fn solve_part_two() -> Option<u64>{
+fn solve_part_two() -> u64{
     let mut v = Vec::new();
     read_input(&mut v);
 
-    let prod: u64 = (1..8).into_iter().filter(|i| *i % 2 != 0)
+    let prod: u64 = (1..8).into_iter()
+        .filter(|i| *i % 2 != 0)
         .map(|j| trees_encountered(&v, j, 1))
         .product::<u64>();
 
-    Some(prod * trees_encountered(&v, 1, 2))
+    prod * trees_encountered(&v, 1, 2)
 }
 
 fn trees_encountered(map: &Vec<Vec<bool>>, right: usize, down: usize) -> u64 {

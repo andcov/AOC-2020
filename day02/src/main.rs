@@ -1,11 +1,12 @@
+// https://adventofcode.com/2020/day/2
 use std::fs;
 use regex::Regex;
 
 fn main() {
-    println!("Day 02\nPart 1: {}\nPart 2: {}", solve_part_one().unwrap(), solve_part_two().unwrap());
+    println!("Day 02\nPart 1: {}\nPart 2: {}", solve_part_one(), solve_part_two());
 }
 
-fn solve_part_one() -> Option<i32> {
+fn solve_part_one() -> u32 {
     let mut v = String::new();
     read_input(&mut v);
 
@@ -21,10 +22,10 @@ fn solve_part_one() -> Option<i32> {
         }
     }
 
-    Some(valid_pass)
+    valid_pass
 }
 
-fn solve_part_two() -> Option<i32> {
+fn solve_part_two() -> u32 {
     let mut v = String::new();
     read_input(&mut v);
 
@@ -40,7 +41,7 @@ fn solve_part_two() -> Option<i32> {
         }
     }
 
-    Some(valid_pass)
+    valid_pass
 }
 
 fn read_input(v: &mut String) {
