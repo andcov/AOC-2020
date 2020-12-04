@@ -7,7 +7,7 @@
 [`Day 02`](https://github.com/andcov/AOC-2020/blob/master/day02/src/main.rs) - ⭐⭐️ <br>
 [`Day 03`](https://github.com/andcov/AOC-2020/blob/master/day03/src/main.rs) - ⭐⭐️ <br>
 [`Day 04`](https://github.com/andcov/AOC-2020/blob/master/day04/src/main.rs) - ⭐⭐️ <br>
-[`Day 05`]() -  <br>
+[`Day 05`](https://github.com/andcov/AOC-2020/blob/master/day05/src/main.rs) -  <br>
 [`Day 06`]() -  <br>
 [`Day 07`]() -  <br>
 [`Day 08`]() -  <br>
