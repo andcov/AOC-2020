@@ -1,7 +1,10 @@
+/.idea
+/advent_of_code_2020.iml
 /target
 /day01/target
 /day02/target
 /day03/target
 /day04/target
 /day05/target
+/day06/target
 

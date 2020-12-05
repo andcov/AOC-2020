@@ -3,7 +3,6 @@ use std::fs;
 
 fn main() {
     println!("Day 05\nPart 1: {}\nPart 2: {}", solve_part_one(), solve_part_two());
-
 }
 
 fn get_row(x: &str) -> u32 {
@@ -38,7 +37,7 @@ fn get_column(x: &str) -> u32{
     min
 }
 
-fn solve_part_one() ->  u32{
+fn solve_part_one() -> u32 {
     let mut v = String::new();
     read_input(&mut v);
 
