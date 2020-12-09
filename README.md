@@ -9,10 +9,10 @@
 [`Day 04`](https://github.com/andcov/AOC-2020/blob/master/day04/src/main.rs) - ⭐⭐️ <br>
 [`Day 05`](https://github.com/andcov/AOC-2020/blob/master/day05/src/main.rs) - ⭐⭐ <br>
 [`Day 06`](https://github.com/andcov/AOC-2020/blob/master/day06/src/main.rs) - ⭐⭐ <br>
-[`Day 07`]() -  <br>
-[`Day 08`]() -  <br>
-[`Day 09`]() -  <br>
-[`Day 10`]() -  <br>
+[`Day 07`](https://github.com/andcov/AOC-2020/blob/master/day07/src/main.rs) - ⭐⭐ <br>
+[`Day 08`](https://github.com/andcov/AOC-2020/blob/master/day08/src/main.rs) - ⭐⭐ <br>
+[`Day 09`](https://github.com/andcov/AOC-2020/blob/master/day09/src/main.rs) - ⭐⭐ <br>
+[`Day 10`](https://github.com/andcov/AOC-2020/blob/master/day10/src/main.rs) -  <br>
 [`Day 11`]() -  <br>
 [`Day 12`]() -  <br>
 [`Day 13`]() -  <br>
