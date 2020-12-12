@@ -12,19 +12,19 @@
 [`Day 07`](https://github.com/andcov/AOC-2020/blob/master/day07/src/main.rs) - ⭐⭐ <br>
 [`Day 08`](https://github.com/andcov/AOC-2020/blob/master/day08/src/main.rs) - ⭐⭐ <br>
 [`Day 09`](https://github.com/andcov/AOC-2020/blob/master/day09/src/main.rs) - ⭐⭐ <br>
-[`Day 10`](https://github.com/andcov/AOC-2020/blob/master/day10/src/main.rs) -  <br>
-[`Day 11`]() -  <br>
-[`Day 12`]() -  <br>
-[`Day 13`]() -  <br>
-[`Day 14`]() -  <br>
-[`Day 15`]() -  <br>
-[`Day 16`]() -  <br>
-[`Day 17`]() -  <br>
-[`Day 18`]() -  <br>
-[`Day 19`]() -  <br>
-[`Day 20`]() -  <br>
-[`Day 21`]() -  <br>
-[`Day 22`]() -  <br>
-[`Day 23`]() -  <br>
-[`Day 24`]() -  <br>
-[`Day 25`]() -  <br>
+[`Day 10`](https://github.com/andcov/AOC-2020/blob/master/day10/src/main.rs) - ⭐⭐ <br>
+[`Day 11`](https://github.com/andcov/AOC-2020/blob/master/day11/src/main.rs) - ⭐⭐ <br>
+[`Day 12`](https://github.com/andcov/AOC-2020/blob/master/day12/src/main.rs) - ⭐⭐ <br>
+[`Day 13`](https://github.com/andcov/AOC-2020/blob/master/day13/src/main.rs) -  <br>
+[`Day 14`](https://github.com/andcov/AOC-2020/blob/master/day14/src/main.rs) -  <br>
+[`Day 15`](https://github.com/andcov/AOC-2020/blob/master/day15/src/main.rs) -  <br>
+[`Day 16`](https://github.com/andcov/AOC-2020/blob/master/day16/src/main.rs) -  <br>
+[`Day 17`](https://github.com/andcov/AOC-2020/blob/master/day17/src/main.rs) -  <br>
+[`Day 18`](https://github.com/andcov/AOC-2020/blob/master/day18/src/main.rs) -  <br>
+[`Day 19`](https://github.com/andcov/AOC-2020/blob/master/day19/src/main.rs) -  <br>
+[`Day 20`](https://github.com/andcov/AOC-2020/blob/master/day20/src/main.rs) -  <br>
+[`Day 21`](https://github.com/andcov/AOC-2020/blob/master/day21/src/main.rs) -  <br>
+[`Day 22`](https://github.com/andcov/AOC-2020/blob/master/day22/src/main.rs) -  <br>
+[`Day 23`](https://github.com/andcov/AOC-2020/blob/master/day23/src/main.rs) -  <br>
+[`Day 24`](https://github.com/andcov/AOC-2020/blob/master/day24/src/main.rs) -  <br>
+[`Day 25`](https://github.com/andcov/AOC-2020/blob/master/day25/src/main.rs) -  <br>
